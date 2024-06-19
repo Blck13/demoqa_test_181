@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ebb6537f-da09-4e90-9a8d-64895e6df05a" name="Changes" comment="gitignore added right">
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/JUnitExamples.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TextBox.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="ebb6537f-da09-4e90-9a8d-64895e6df05a" name="Changes" comment="gitignore added right" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -214,11 +207,36 @@
       <option name="project" value="LOCAL" />
       <updated>1717749093848</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="gitignore added right">
+      <option name="closed" value="true" />
+      <created>1717779485032</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1717779485032</updated>
+    </task>
+    <task id="LOCAL-00005" summary="gitignore added right">
+      <option name="closed" value="true" />
+      <created>1717779510739</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1717779510739</updated>
+    </task>
+    <task id="LOCAL-00006" summary="gitignore added right">
+      <option name="closed" value="true" />
+      <created>1717780821674</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1717780821674</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="gitignore added" />
+    <MESSAGE value="add textBoxTests" />
     <MESSAGE value="gitignore added right" />
     <option name="LAST_COMMIT_MESSAGE" value="gitignore added right" />
   </component>
