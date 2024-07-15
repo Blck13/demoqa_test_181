@@ -1,6 +1,12 @@
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.openqa.selenium.By;
+
+import static com.codeborne.selenide.Condition.text;
+import static com.codeborne.selenide.Condition.visible;
+import static com.codeborne.selenide.Selectors.byText;
+import static com.codeborne.selenide.Selenide.*;
 
 public class JUnitExamples {
 
@@ -23,5 +29,15 @@ public class JUnitExamples {
     void secondTest(){
         System.out.println("  Here is secondTest");
 
+    }
+}
+
+ class homework7 {
+    @Test
+    void testenterprisePageChecks() {
+        open("https://github.com");
+        $$(By.cssSelector(".HeaderMenu-link")).findBy(text("Solutions")).hover();
+        $$(By.cssSelector(".HeaderMenu-dropdown-link")).findBy(text("Enterprise")).click();
+        $(byText("Build like the best")).shouldBe(visible);
     }
 }

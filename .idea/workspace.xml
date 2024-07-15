@@ -4,7 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ebb6537f-da09-4e90-9a8d-64895e6df05a" name="Changes" comment="gitignore added right" />
+    <list default="true" id="ebb6537f-da09-4e90-9a8d-64895e6df05a" name="Changes" comment="gitignore added right">
+      <change afterPath="$PROJECT_DIR$/src/test/java/HomeWorkTest/homework7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/HomeWorkTest/hw/hw5Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/HomeWorkTest/hw/hw5Test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/HomeWorkTest/hw/hw7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/HomeWorkTest/hw/hw7Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/examples/CssXpathExamples.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/RegistrationPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/components/CalendarComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/components/RegistrationResultsModal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/RegistrationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/JUnitExamples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JUnitExamples.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,24 +69,44 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.JUnitExamples.executor": "Run",
-    "Gradle.TextBox.executor": "Run",
-    "Gradle.TextBox.fillFormTest.executor": "Run",
-    "Gradle.demoqa_test_181 [dependencies].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/OldTiger/IdeaProjects/demoqa_test_181"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.Download Sources.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.HomeWorkTest.EnterprisePageChecksTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.JUnitExamples.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.TextBox.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.TextBox.fillFormTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.demoqa_test_181 [dependencies].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.homework7 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.homework7.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.homework7.testenterprisePageChecks.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.hw7 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.hw7.EnterprisePageChecksTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.hw7.enterprisePageChecks.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.hw7.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.hw7.testEnterprisePageChecks.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.hw7.testenterprisePageChecks (1).executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.hw7.testenterprisePageChecks.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.mhw5Test.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.mhw5Test.my2test.executor&quot;: &quot;Debug&quot;,
+    &quot;Gradle.mhw5Test2.my2test2.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.mhw7Test.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.mhw7Test.myFirstTest.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/OldTiger/IdeaProjects/getting-started-java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\OldTiger\IdeaProjects\demoqa_test_181" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.TextBox.fillFormTest">
-    <configuration name="JUnitExamples" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.mhw5Test2.my2test2">
+    <configuration name="hw7.testenterprisePageChecks (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -84,7 +119,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;JUnitExamples&quot;" />
+            <option value="&quot;hw7.testenterprisePageChecks&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -95,7 +130,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="TextBox" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="mhw5Test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -108,7 +143,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;TextBox&quot;" />
+            <option value="&quot;mhw5Test&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -119,7 +154,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="TextBox.fillFormTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="mhw5Test2.my2test2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -132,7 +167,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;TextBox.fillFormTest&quot;" />
+            <option value="&quot;mhw5Test2.my2test2&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -143,34 +178,61 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="demoqa_test_181 [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="mhw5Test.my2test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
+        <option name="scriptParameters" value="" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value="dependencies" />
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;mhw5Test.my2test&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="mhw7Test.myFirstTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;mhw7Test.myFirstTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.TextBox.fillFormTest" />
-        <item itemvalue="Gradle.TextBox" />
-        <item itemvalue="Gradle.demoqa_test_181 [dependencies]" />
-        <item itemvalue="Gradle.JUnitExamples" />
+        <item itemvalue="Gradle.mhw5Test2.my2test2" />
+        <item itemvalue="Gradle.mhw5Test.my2test" />
+        <item itemvalue="Gradle.mhw5Test" />
+        <item itemvalue="Gradle.hw7.testenterprisePageChecks (1)" />
+        <item itemvalue="Gradle.mhw7Test.myFirstTest" />
       </list>
     </recent_temporary>
   </component>
@@ -231,7 +293,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717780821674</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="gitignore added right">
+      <option name="closed" value="true" />
+      <created>1718787731076</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1718787731076</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
