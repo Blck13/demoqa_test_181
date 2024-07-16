@@ -17,7 +17,7 @@ public abstract class RegistrationPage {
 
 
     public RegistrationPage openPage() {
-        open("/automation-practice-form");
+        open("https://demoqa.com//automation-practice-form");
         $(".pratice-form-wrapper").shouldHave(text(TITLE_TEXT));
         executeJavaScript("$('#fixedban').remove()");
         executeJavaScript("$('footer').remove()");
@@ -75,5 +75,41 @@ public abstract class RegistrationPage {
 
         return this;
     }
+
+    public RegistrationPage setSubjects(String value) {
+        $("#subjectsInput").setValue(value).pressEnter();
+
+        return this;
+
+    }
+
+    public RegistrationPage setHobbies(String value) {
+        $("#hobbies-checkbox-1").parent().$(byText(value)).click();
+
+        return this;
+
+    }
+
+    public RegistrationPage setPicture(String value) {
+        $("#uploadPicture").uploadFromClasspath(value);
+
+
+        return this;
+
+    }
+    public RegistrationPage setAdress(String value) {
+        $("#currentAddress").setValue(value);
+        $("#state").click();
+        return this;
+    }
+
+    public RegistrationPage setStateAndCity(String value1, String value2) {
+        $("#stateCity-wrapper").$(byText(value1)).click();
+        $("#city").click();
+        $("#stateCity-wrapper").$(byText(value2)).click();
+        $("#submit").click();
+        return this;
+    }
+
 
 }

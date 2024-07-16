@@ -17,26 +17,33 @@ public class hw5Test2 extends TestBase {
     @Test
     public void my2test2(){
         Configuraion.pageLoadStrategy = "eager";
+        String userName = "Ivan";
+        String userLName = "Egorov";
+        String userEmail = "krovostok@mail.ru";
+        String userGender = "Other";
+        String userPhone = "1234567890";
+        String XX= "07";
+        String YY = "July";
+        String ZZ = "2008";
+        String userSubject = "Chemistry";
+        String userHobbie = "Sports";
+        String userPicture = "images/3.png";
+        String userAdress ="Svoya ulica kv.5";
+        String userState = "Uttar Pradesh";
+        String userCity = "Agra";
+
         registrationPage.openPage()
-                               .setFirstName("Ivan")
-                               .setLastName("Egorov")
-                               .setEmail("krovostok@mail.ru")
-                               .setGender("Other")
-                               .setPhone("1234567890")
-                               .setBirthDate("07","September","2007");
-        $("#dateOfBirthInput").click();
-        $(".react-datepicker__month-dropdown-container").$(byText("February")).click();
-        $(".react-datepicker__year-dropdown-container").$(byText("1992")).click();
-        $(".react-datepicker__month-container").$(byText("6")).click();
-        $("#subjectsInput").setValue("Chemistry").pressEnter();
-        $("#hobbies-checkbox-1").parent().$(byText("Sports")).click();
-        //$("#uploadPicture").uploadFromClasspath("images/3.png");
-        $("#currentAddress").setValue("Svoya ulica kv.5");
-        $("#state").click();
-        $("#stateCity-wrapper").$(byText("Uttar Pradesh")).click();
-        $("#city").click();
-        $("#stateCity-wrapper").$(byText("Agra")).click();
-        $("#submit").click();
+                               .setFirstName(userName)
+                               .setLastName(userLName)
+                               .setEmail(userEmail)
+                               .setGender(userGender)
+                               .setPhone(userPhone)
+                               .setBirthDate(XX,YY,ZZ)
+                               .setSubjects(userSubject)
+                               .setHobbies(userHobbie)
+                               .setPicture(userPicture)
+                               .setAdress(userAdress)
+                               .setStateAndCity(userState,userCity);
 
         registrationPage.verifyResultsModalAppears()
                 .verifyResult("Student Name", "Ivan"+"Egorov")
