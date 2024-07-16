@@ -4,21 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ebb6537f-da09-4e90-9a8d-64895e6df05a" name="Changes" comment="gitignore added right">
-      <change afterPath="$PROJECT_DIR$/src/test/java/HomeWorkTest/homework7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/HomeWorkTest/hw/hw5Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/HomeWorkTest/hw/hw5Test2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/HomeWorkTest/hw/hw7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/HomeWorkTest/hw/hw7Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/examples/CssXpathExamples.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/RegistrationPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/components/CalendarComponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/components/RegistrationResultsModal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/RegistrationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" afterDir="false" />
+    <list default="true" id="ebb6537f-da09-4e90-9a8d-64895e6df05a" name="Changes" comment="added pageobjects">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/JUnitExamples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JUnitExamples.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -308,6 +295,7 @@
     <MESSAGE value="gitignore added" />
     <MESSAGE value="add textBoxTests" />
     <MESSAGE value="gitignore added right" />
-    <option name="LAST_COMMIT_MESSAGE" value="gitignore added right" />
+    <MESSAGE value="added pageobjects" />
+    <option name="LAST_COMMIT_MESSAGE" value="added pageobjects" />
   </component>
 </project>
