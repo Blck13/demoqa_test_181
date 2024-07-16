@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ebb6537f-da09-4e90-9a8d-64895e6df05a" name="Changes" comment="added pageobjects">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="ebb6537f-da09-4e90-9a8d-64895e6df05a" name="Changes" comment="gitignore added right">
+      <change beforePath="$PROJECT_DIR$/src/test/java/HomeWorkTest/hw/hw5Test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HomeWorkTest/hw/hw5Test2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +46,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/test/java/HomeWorkTest/hw/hw5Test2.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
@@ -288,14 +291,30 @@
       <option name="project" value="LOCAL" />
       <updated>1718787731076</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="gitignore added right">
+      <option name="closed" value="true" />
+      <created>1721120073062</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1721120073062</updated>
+    </task>
+    <task id="LOCAL-00009" summary="gitignore added right">
+      <option name="closed" value="true" />
+      <created>1721120092879</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1721120092879</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="gitignore added" />
     <MESSAGE value="add textBoxTests" />
-    <MESSAGE value="gitignore added right" />
     <MESSAGE value="added pageobjects" />
-    <option name="LAST_COMMIT_MESSAGE" value="added pageobjects" />
+    <MESSAGE value="gitignore added right" />
+    <option name="LAST_COMMIT_MESSAGE" value="gitignore added right" />
   </component>
 </project>
